@@ -1,0 +1,79 @@
+
+body { 
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color:#660F2D;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #660F2D;
+
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,.navbar-brand:hover,
+.nav-menu .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #FCE8EF;
+}
+
+.section-title {
+    font-family: 'Leckerli One', cursive;
+}
+
+#sobre-o-salao,
+#servicos-preco {
+    background-color: #FCE8EF;
+}
+
+#servicos img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#servicos-precos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    max-height: 1280px;
+}
+
+
+.text-colored {
+    color: #660F2D;
+}
+
+.nav-menu .nav-link.active,
+#fale-conosco button {
+    background-color:#660F2D;
+    color: #fff;
+}
+
+.nav-menu .nav-link:hover {
+    color: #660F2D;
+}
+
+.social-links li {
+    list-style: none;
+    display:inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 288px;
+    }
+}
